@@ -2,8 +2,16 @@
   "name": "HématoLES — Assistant RCP Pharmacie",
   "short_name": "HématoLES",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
-  "icons": []
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%230f172a'/%3E%3Crect x='24' y='24' width='464' height='464' rx='76' fill='none' stroke='%232563eb' stroke-width='20'/%3E%3Ctext x='256' y='305' font-family='sans-serif' font-weight='bold' font-size='210' fill='%23ffffff' text-anchor='middle'%3EHL%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
 }
